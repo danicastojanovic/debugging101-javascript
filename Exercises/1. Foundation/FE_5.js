@@ -1,9 +1,9 @@
 /*
-* The following function multiplies all the numbers in together and returns 
+* The following function multiplies all the numbers in together and returns
 * the total. Please identify any issues in the following function.
 */
 const multiplyAllNums = nums => {
-  let total = 0;
+  let total = 1; // total initializes as 0 (any number * 0 = 0)
   for(num of nums) {
     total *= num;
   }

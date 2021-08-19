@@ -9,19 +9,19 @@ const middleEarth = {
   },
   2: {
     title: 'The Hobbit',
-    author: 'J.R.R. Tolkien';
+    author: 'J.R.R. Tolkien' // had a ; at the end
   },
   3: {
     title: 'The Fellowship of the Ring',
     author: 'J.R.R. Tolkien'
   },
   4: {
-    title: 'The Two Towers'
+    title: 'The Two Towers', // missing a comma
     author: 'J.R.R. Tolkien'
   },
   5: {
     title: 'The Return of the King',
-    authors: 'J.R.R. Tolkien'
+    author: 'J.R.R. Tolkien' // this had authors key instead of author
   }
 }
 

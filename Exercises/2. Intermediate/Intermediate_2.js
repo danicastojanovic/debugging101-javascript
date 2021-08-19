@@ -1,5 +1,5 @@
 /*
-* Please identify the any issue(s) with the following code. There may be 
+* Please identify the any issue(s) with the following code. There may be
 * syntax or style errors.
 */
 const middleEarth = {
@@ -26,6 +26,6 @@ const middleEarth = {
 }
 
 for(let book in middleEarth) {
-  console.log(middleEarth.book);
+  console.log(middleEarth[book]);
 }
 console.log(middleEarth[5].author);
